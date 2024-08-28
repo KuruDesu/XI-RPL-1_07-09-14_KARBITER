@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="logohtml.jpg">
+    
+    <script src="https://kit.fontawesome.com/11ce09ffcd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1>HALO</h1>
+    <p>INI ADALAH BIODATA KAMI</p>   
+   
+    <div class="container">
+        <div class="profile">
+            <img src="photo1.jpg" alt="Foto 1">
+            <table>
+                <!--  -->
+            </table>
+            <button onclick="showPopup(1)">Show Info</button>
+            <a href="https://www.tiktok.com/@ardha778?_t=8oYxMBxTuJV&_r=1"><img src="tiktok.png" alt="logotiktok"></a>
+        </div>
+
+        <div class="profile">
+            <img src="photo2.jpg" alt="Foto 2">
+            <table>
+                <!--  -->
+            </table>
+            <button onclick="showPopup(2)">Show Info</button>
+            <a href="https://www.tiktok.com/@descham_?_t=8pFSwatKLar&_r=1"><img src="tiktok.png" alt="logotiktok"></a>
+        </div>
+
+        <div class="profile">
+            <img src="photo3.jpg" alt="Foto 3">
+            <table>
+                <!--  -->
+            </table>
+            <button onclick="showPopup(3)">Show Info</button>
+            <a href="https://www.tiktok.com/@onlykurumi?_t=8pFTOR4JGvy&_r=1"><img src="tiktok.png" alt="logotiktok"></a>
+        </div>
+    </div>
+
+    <!-- ini adalah pop up struktur -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div id="popup-info"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
